@@ -1,0 +1,23 @@
+# Question 1
+# Variable Assignment and String Manipulation
+#Variable
+name = input("What is your name? ")
+age = input("What is your age? ")
+#print
+#  greeting = f"Hello, {name}! You are {age} years old."
+
+#Question 2
+# Integer Operations
+length = int(input("Enter the length of the rectangle: "))
+width = int(input("Enter the width of the rectangle: "))
+area = length * width
+#print the result
+print(f"The area of the rectangle is: {area}")
+
+#Question 3
+# Working with Floats       
+temperature_celsius = float(input("Enter the temperature in Celsius: "))
+temperature_fahrenheit = (temperature_celsius * 9/5) + 32
+#print
+print(f"The temperature in Fahrenheit is: {temperature_fahrenheit}")
+
